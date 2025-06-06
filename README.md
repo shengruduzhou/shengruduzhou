@@ -25,7 +25,7 @@
 
 ###  hobbies & Interests
 - 🎵 Music (Listening & Singing), 🏀 Sports (Ball Games & Fitness), 🗺️ Traveling, 🎮 Gaming
-- 
+
 ---
 
 ### 🛠️ Tech Stack & Tools
