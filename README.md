@@ -72,5 +72,5 @@
 
 <h3 align="left">🔗 Connect with me:</h3>
 <p align="left">
-  <a href="https://linkedin.com/in/your-linkedin-username" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="your-linkedin-username" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/%E8%B5%AB%E5%A4%AB-%E5%8D%95-054b24361/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="your-linkedin-username" height="30" width="40" /></a>
 </p>
