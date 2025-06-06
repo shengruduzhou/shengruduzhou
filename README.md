@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <em>M.S. in Computer Science at Sophia University | Machine Learning & Software Engineer</em>
+  <em>M.S. in Computer Science at Sophia University | Machine Learning & Full Stack </em>
   <br />
   <a href="https://github.com/shengruduzhou">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=shengruduzhou.shengruduzhou&left_text=Visitors" alt="visitor badge"/>
@@ -12,19 +12,20 @@
 
 ---
 
-[cite_start]I am a Master's student at **Sophia University's Graduate School of Science and Engineering**, specializing in Computer Science (Information Science). My passion lies in applying Machine Learning and Software Engineering principles to create impactful, real-world solutions.
+🌟I am a Master's student at Sophia University's Graduate School of Science and Engineering, specializing in Computer Science (Information Science). 
 
-- [cite_start]🎓 **Education**: B.S. from Teikyo University  [cite_start]& M.S. candidate at Sophia University (Apr 2025 - Mar 2027).
-- 🔭 **Current Research**: I'm diving deep into Computer Vision at the **Intelligent Sensing Laboratory**. [cite_start]My work focuses on a "Spherical-aware Masked Autoencoder for 360° Image Completion", leveraging Vision Transformers and self-supervised learning techniques. [cite_start]I am also exploring cutting-edge models like NeRFs and Stable Diffusion.
-- [cite_start]🌱 **Career Goal**: Aspiring to become a **Machine Learning Engineer (MLE)** or a **Software Development Engineer (SDE)**, where I can contribute my research-driven mindset and hands-on development skills.
-- [cite_start]💬 **Languages**: Fluent in **Chinese (Native), Japanese (Business), and English (Professional)**.
+- 🎓 **Education**: B.S. from Teikyo University (Apr 2021 - Mar 2025) & M.S. candidate at Sophia University (Apr 2025 - Mar 2027).
+  - **Relevant Coursework**: Data Structures & Algorithms, Formal Languages & Automata, Information Theory, Database Systems, Computer Architecture, Computer Organization, Operating Systems, Digital Circuits, Analog Circuits.
+- 🔭 **Current Research**:  I am currently a member of the Intelligent Sensing Laboratory, with a research focus on Computer Vision.🌟My master's thesis is on a "Spherical-aware Masked Autoencoder for 360° Image Completion," primarily utilizing Vision Transformers and self-supervised learning techniques. Additionally, through my lab's research activities, I have gained some exposure to related technologies such as NeRFs and Stable Diffusion.
+- 🌱 **Career Goal**: My career goal is to become a Software Development Engineer (SDE) or a Machine Learning Engineer (MLE). I have practical experience in web development relevant for an SDE role, and I am actively learning the skills required for an MLE position.
+- 💬 **Languages**: Fluent in **Chinese (Native)**, Japanese (Conversational), English (Basic).
 
 ### 🏆 Key Projects & Achievements
+- **Scholarship Recipient**: Awarded the prestigious **JASSO Scholarship** and was recommended for the Rotary Yoneyama Memorial Scholarship.
 
-- [cite_start]**Full-Stack Web App**: Led the development of a web application for analyzing student concentration in online classes, covering everything from front-end (JavaScript) and back-end (Java) to database design.
-- [cite_start]**Robotics Contest Winner**: Secured **3rd place** in an on-campus robot control programming competition.
-- [cite_start]**Scholarship Recipient**: Awarded the prestigious **JASSO Scholarship** and was recommended for the Rotary Yoneyama Memorial Scholarship.
-
+###  hobbies & Interests
+- 🎵 Music (Listening & Singing), 🏀 Sports (Ball Games & Fitness), 🗺️ Traveling, 🎮 Gaming
+- 
 ---
 
 ### 🛠️ Tech Stack & Tools
@@ -34,22 +35,28 @@
   <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
   <a href="#"><img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"></a>
   <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></a>
-  <a href="#"><img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"></a>
   <a href="#"><img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a>
   <a href="#"><img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a>
 </p>
 <p align="left">
   <strong>Machine Learning & AI:</strong><br>
   <a href="#"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"></a>
-  <a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"></a>
-  <a href="#"><img alt="Scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"></a>
   <a href="#"><img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"></a>
 </p>
 <p align="left">
   <strong>Frameworks & Tools:</strong><br>
-  <a href="#"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"></a>
+  <a href="#"><img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"></a>
+  <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
   <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"></a>
-  <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"></a>
+  <a href="#"><img alt="Maven" src="https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"></a>
+</p>
+<p align="left">
+  <strong>Databases & Cloud:</strong><br>
+  <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"></a>
+</p>
+<p align="left">
+  <strong>CI/CD Tools:</strong><br>
+  <a href="#"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"></a>
 </p>
 
 ---
