@@ -25,7 +25,7 @@
 - **Scholarship Recipient**: Awarded the **JASSO Scholarship** and was recommended for the Rotary Yoneyama Memorial Scholarship.
 
 ###  hobbies & Interests
-- 🎵 Music (Listening & Singing), 🏀 Sports (Ball Games & Fitness), 🗺️ Traveling, 🎮 Gaming
+- 🎵 Music (Listening & Singing) 🏀 Sports (Ball Games & Fitness) 🗺️ Traveling 🎮 Gaming
 
 ---
 
