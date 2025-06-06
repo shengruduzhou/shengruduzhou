@@ -16,12 +16,12 @@
 
 - 🎓 **Education**: B.S. from Teikyo University (Apr 2021 - Mar 2025) & M.S. candidate at Sophia University (Apr 2025 - Mar 2027).
   - **Relevant Coursework**: Data Structures & Algorithms, Formal Languages & Automata, Information Theory, Database Systems, Computer Architecture, Computer Organization, Operating Systems, Digital Circuits, Analog Circuits.
-- 🔭 **Current Research**:  I am currently a member of the Intelligent Sensing Laboratory, with a research focus on Computer Vision.🌟My master's thesis is on a "Spherical-aware Masked Autoencoder for 360° Image Completion," primarily utilizing Vision Transformers and self-supervised learning techniques. Additionally, through my lab's research activities, I have gained some exposure to related technologies such as NeRFs and Stable Diffusion.
+- 🔭 **Current Research**:  I am currently a member of the Intelligent Sensing Laboratory @islab-sophia, with a research focus on Computer Vision.🌟My master's thesis is on a "Spherical-aware Masked Autoencoder for 360° Image Completion," primarily utilizing Vision Transformers and self-supervised learning techniques. Additionally, through my lab's research activities, I have gained some exposure to related technologies such as NeRFs and Stable Diffusion.
 - 🌱 **Career Goal**: My career goal is to become a Software Development Engineer (SDE) or a Machine Learning Engineer (MLE). I have practical experience in web development relevant for an SDE role, and I am actively learning the skills required for an MLE position.
 - 💬 **Languages**: Fluent in **Chinese (Native)**, Japanese (Conversational), English (Basic).
 
 ### 🏆 Key Projects & Achievements
-- **Scholarship Recipient**: Awarded the prestigious **JASSO Scholarship** and was recommended for the Rotary Yoneyama Memorial Scholarship.
+- **Scholarship Recipient**: Awarded the **JASSO Scholarship** and was recommended for the Rotary Yoneyama Memorial Scholarship.
 
 ###  hobbies & Interests
 - 🎵 Music (Listening & Singing), 🏀 Sports (Ball Games & Fitness), 🗺️ Traveling, 🎮 Gaming
