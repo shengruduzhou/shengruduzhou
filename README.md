@@ -1,6 +1,6 @@
 ## Hi there 👋
 <h1 align="center">
-  Hi there, I'm Shengru Du Zhou (周升儒) 👋
+  Hi there, I'm shengruduzhou(Shan Hefu).A Master Student abot Sophia University in Tokyo , Japan👋
 </h1>
 
 <p align="center">
@@ -18,7 +18,7 @@
 - 🔭 I’m currently focusing on **Web Development**, **Systems Programming with Go & C++**.
 - 🌱 I’m currently learning and improving my skills in cloud-native technologies and algorithms.
 - 👯 I’m looking to collaborate on interesting open-source projects.
-- 📫 How to reach me: **your-email@example.com** (请替换成你的邮箱)
+- 📫 How to reach me: **shanhefu@gmail.com** (请替换成你的邮箱)
 - ⚡ Fun fact: I enjoy turning ideas into code.
 
 ---
