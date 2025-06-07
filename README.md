@@ -12,6 +12,8 @@
 
 ---
 
+### 🌐 About Me
+
 <p align="center">
   <b>Curious about my work? You'll find my portfolio, resume, and more on my personal website</b>
   <br><br>
@@ -34,7 +36,7 @@
 
 ---
 
-### 📫 Connect with Me
+### 📫 Connect Me
 
 <p align="left">
   <a href="mailto:shanhefu@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="shanhefu@gmail.com" /></a>
