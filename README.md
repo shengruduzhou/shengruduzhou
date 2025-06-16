@@ -19,7 +19,7 @@
   <br><br>
   <a href="http://shengruduzhou.github.io/" target="blank" rel="noreferrer"><img src="https://img.shields.io/badge/Mypage-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="Personal Website"/></a>
   <a href="https://shengruduzhou.github.io/portfolio.html" target="blank" rel="noreferrer"><img src="https://img.shields.io/badge/Portfolio-28a745?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Personal Website"/></a>
-  <a href="https://shengruduzhou.github.io/about%20me/2025/06/05/Introduction.html" target="blank" rel="noreferrer"><img src="https://img.shields.io/badge/Resume-d14836?style=for-the-badge&logo=reactiveresume&logoColor=white" alt="Resume/CV"/></a>
+  <a href="https://github.com/shengruduzhou/shengruduzhou.github.io/blob/main/assets/CV.pdf" target="blank" rel="noreferrer"><img src="https://img.shields.io/badge/Resume-d14836?style=for-the-badge&logo=reactiveresume&logoColor=white" alt="Resume/CV"/></a>
 </p>
 </p>
 
