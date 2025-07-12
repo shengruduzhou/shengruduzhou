@@ -28,9 +28,9 @@
 ### 📊 My GitHub Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-259%20hrs%2051%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-249%20hrs%2029%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-12-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-31-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-101.9%20thousand%20lines%20of%20code-blue)
 
@@ -114,7 +114,7 @@ Jupyter Notebook         1 repo              ████░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 11/07/2025 15:02:59 UTC
+ Last Updated on 12/07/2025 01:41:59 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
