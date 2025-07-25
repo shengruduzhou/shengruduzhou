@@ -28,15 +28,17 @@
 ### 📊 My GitHub Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-312%20hrs%2033%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-326%20hrs%2036%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-27-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-26-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-105.6%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-105.7%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 261 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -44,54 +46,6 @@
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                24 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.65 % 
-🌆 Daytime                62 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.17 % 
-🌃 Evening                71 commits          █████░░░░░░░░░░░░░░░░░░░░   19.67 % 
-🌙 Night                  204 commits         ██████████████░░░░░░░░░░░   56.51 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   52 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.40 % 
-Tuesday                  32 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.86 % 
-Wednesday                40 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.08 % 
-Thursday                 109 commits         ████████░░░░░░░░░░░░░░░░░   30.19 % 
-Friday                   39 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.80 % 
-Saturday                 45 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.47 % 
-Sunday                   44 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.19 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Shanghai
-
-💬 Programming Languages: 
-Other                    17 hrs 44 mins      █████████████░░░░░░░░░░░░   52.73 % 
-Text                     14 hrs 44 mins      ███████████░░░░░░░░░░░░░░   43.84 % 
-Python                   1 hr 9 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.43 % 
-
-🔥 Editors: 
-Chrome                   24 hrs 19 mins      ██████████████████░░░░░░░   72.33 % 
-VS Code                  9 hrs 18 mins       ███████░░░░░░░░░░░░░░░░░░   27.66 % 
-Zoom                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
-
-🐱‍💻 Projects: 
-sun360                   15 hrs 39 mins      ████████████░░░░░░░░░░░░░   46.54 % 
-mae                      7 hrs 18 mins       █████░░░░░░░░░░░░░░░░░░░░   21.74 % 
-mas                      5 hrs 36 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.66 % 
-Scenne-illumination-estim2 hrs 55 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.70 % 
-NagaAgent                2 hrs 4 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.18 % 
-
-💻 Operating System: 
-Mac                      24 hrs 20 mins      ██████████████████░░░░░░░   72.34 % 
-Linux                    9 hrs 18 mins       ███████░░░░░░░░░░░░░░░░░░   27.66 % 
-```
-
 **I Mostly Code in Python** 
 
 ```text
@@ -109,7 +63,7 @@ Jupyter Notebook         1 repo              ████░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 24/07/2025 01:43:23 UTC
+ Last Updated on 25/07/2025 01:43:08 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
