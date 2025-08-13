@@ -28,7 +28,7 @@
 ### 📊 My GitHub Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-359%20hrs%2044%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-362%20hrs%204%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -37,8 +37,6 @@
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 261 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -73,21 +71,17 @@ Sunday                   44 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    5 hrs 49 mins       ███████████████████████░░   93.85 % 
-HTML                     22 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.05 % 
-TypeScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
+Other                    8 hrs 8 mins        ████████████████████████░   95.60 % 
+HTML                     22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 % 
 
 🔥 Editors: 
-Chrome                   6 hrs 11 mins       █████████████████████████   99.90 % 
-VS Code                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
+Chrome                   8 hrs 31 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-odi-processing           6 hrs 11 mins       █████████████████████████   99.90 % 
-react-app                0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
+odi-processing           8 hrs 31 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      6 hrs 11 mins       █████████████████████████   99.90 % 
-Windows                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
+Mac                      8 hrs 31 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -107,7 +101,7 @@ Jupyter Notebook         1 repo              ████░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 12/08/2025 01:27:57 UTC
+ Last Updated on 13/08/2025 01:37:53 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
