@@ -38,6 +38,8 @@
 
 > 📦 ? Used in GitHub's Storage 
  > 
+> 🏆 261 Contributions in the Year 2025
+ > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 5 Public Repositories 
@@ -71,16 +73,16 @@ Sunday                   44 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    3 hrs 6 mins        █████████████████████████   100.00 % 
+Other                    43 mins             █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Chrome                   3 hrs 6 mins        █████████████████████████   100.00 % 
+Chrome                   43 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-odi-processing           3 hrs 6 mins        █████████████████████████   100.00 % 
+odi-processing           43 mins             █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      3 hrs 6 mins        █████████████████████████   100.00 % 
+Mac                      43 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -100,7 +102,7 @@ Jupyter Notebook         1 repo              ████░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 19/08/2025 01:25:50 UTC
+ Last Updated on 20/08/2025 01:24:12 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
