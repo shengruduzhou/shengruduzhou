@@ -28,7 +28,7 @@
 ### 📊 My GitHub Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-461%20hrs%2029%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-465%20hrs%2028%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -73,16 +73,16 @@ Sunday                   44 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    46 hrs 41 mins      █████████████████████████   100.00 % 
+Other                    37 hrs 59 mins      █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Chrome                   46 hrs 41 mins      █████████████████████████   100.00 % 
+Chrome                   37 hrs 59 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-odi-processing           46 hrs 41 mins      █████████████████████████   100.00 % 
+odi-processing           37 hrs 59 mins      █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      46 hrs 41 mins      █████████████████████████   100.00 % 
+Mac                      37 hrs 59 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -102,7 +102,7 @@ Jupyter Notebook         1 repo              ████░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 15/09/2025 01:24:54 UTC
+ Last Updated on 16/09/2025 01:18:28 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
