@@ -73,17 +73,16 @@ Sunday                   44 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    4 hrs 49 mins       █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Chrome                   2 hrs 29 mins       █████████████░░░░░░░░░░░░   51.70 % 
-Notes                    2 hrs 19 mins       ████████████░░░░░░░░░░░░░   48.30 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-odi-processing           4 hrs 49 mins       █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      4 hrs 49 mins       █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -103,7 +102,7 @@ Jupyter Notebook         1 repo              ████░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 24/09/2025 01:19:43 UTC
+ Last Updated on 25/09/2025 01:20:22 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
