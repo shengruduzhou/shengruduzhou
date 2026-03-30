@@ -28,7 +28,7 @@
 ### 📊 My GitHub Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C780%20hrs%2014%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C783%20hrs%2045%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -73,19 +73,16 @@ Sunday                   44 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    17 hrs 8 mins       █████████████████████████   99.92 % 
-Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
+Other                    15 hrs 31 mins      █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Chrome                   17 hrs 8 mins       █████████████████████████   99.92 % 
-VS Code                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
+Chrome                   15 hrs 31 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-media                    17 hrs 8 mins       █████████████████████████   100.00 % 
+media                    15 hrs 31 mins      █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      17 hrs 8 mins       █████████████████████████   99.92 % 
-Linux                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
+Mac                      15 hrs 31 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -105,7 +102,7 @@ Jupyter Notebook         1 repo              ████░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 29/03/2026 02:25:19 UTC
+ Last Updated on 30/03/2026 02:28:06 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
