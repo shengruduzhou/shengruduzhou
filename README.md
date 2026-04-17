@@ -28,9 +28,9 @@
 ### 📊 My GitHub Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C864%20hrs%2028%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C870%20hrs%2028%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-105.73%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -73,16 +73,24 @@ Sunday                   44 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    1 hr 59 mins        █████████████████████████   100.00 % 
+Other                    5 hrs 6 mins        █████████████████████░░░░   85.22 % 
+SSH Config               52 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.70 % 
+SSH Key                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 % 
 
 🔥 Editors: 
-Chrome                   1 hr 59 mins        █████████████████████████   100.00 % 
+Chrome                   5 hrs 15 mins       ██████████████████████░░░   87.57 % 
+VS Code                  44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.43 % 
 
 🐱‍💻 Projects: 
-DAP                      1 hr 59 mins        █████████████████████████   100.00 % 
+ssh                      5 hrs 8 mins        █████████████████████░░░░   85.89 % 
+Unknown Project          31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.78 % 
+DAP                      10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.98 % 
+gaussian-splatting       4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.14 % 
+triangle-splatting       4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.13 % 
 
 💻 Operating System: 
-Mac                      1 hr 59 mins        █████████████████████████   100.00 % 
+Mac                      5 hrs 49 mins       ████████████████████████░   97.27 % 
+Linux                    9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.73 % 
 ```
 
 **I Mostly Code in Python** 
@@ -102,7 +110,7 @@ Jupyter Notebook         1 repo              ████░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 16/04/2026 02:36:03 UTC
+ Last Updated on 17/04/2026 02:32:11 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
