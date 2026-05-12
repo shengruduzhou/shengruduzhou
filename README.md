@@ -119,9 +119,11 @@ Jupyter Notebook         1 repo              ██░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 <p align="center">
-  <a href="https://github.com/shengruduzhou" target="_blank" rel="noreferrer">
-    <a href="https://github.com/shengruduzhou" target="blank"><img src="https://github-readme-stats.vercel.app/api?username=shengruduzhou&show_icons=true&locale=en&theme=tokyonight&count_private=true" alt="shengruduzhou's github stats"/></a>
-    <a href="https://github.com/shengruduzhou" target="blank"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shengruduzhou&layout=compact&locale=en&theme=tokyonight" alt="shengruduzhou's top langs"/></a>
+  <a href="https://github.com/shengruduzhou">
+    <img src="https://github-readme-stats.vercel.app/api?username=shengruduzhou&show_icons=true&locale=en&theme=tokyonight" alt="shengruduzhou's github stats"/>
+  </a>
+  <a href="https://github.com/shengruduzhou">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shengruduzhou&layout=compact&locale=en&theme=tokyonight" alt="shengruduzhou's top langs"/>
   </a>
 </p>
 
