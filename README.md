@@ -120,10 +120,16 @@ Jupyter Notebook         1 repo              ██░░░░░░░░░�
 
 <p align="center">
   <a href="https://github.com/shengruduzhou">
-    <img src="https://github-readme-stats.vercel.app/api?username=shengruduzhou&show_icons=true&locale=en&theme=tokyonight" alt="shengruduzhou's github stats"/>
+    <img
+      src="https://github-stats-extended.vercel.app/api?username=shengruduzhou&show_icons=true&locale=en&theme=tokyonight"
+      alt="shengruduzhou's github stats"
+    />
   </a>
   <a href="https://github.com/shengruduzhou">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shengruduzhou&layout=compact&locale=en&theme=tokyonight" alt="shengruduzhou's top langs"/>
+    <img
+      src="https://github-stats-extended.vercel.app/api/top-langs/?username=shengruduzhou&layout=compact&locale=en&theme=tokyonight"
+      alt="shengruduzhou's top langs"
+    />
   </a>
 </p>
 
