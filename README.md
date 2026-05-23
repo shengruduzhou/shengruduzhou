@@ -28,7 +28,9 @@
 ### 📊 My GitHub Stats
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-14-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C042%20hrs%2016%20mins-blue?style=flat)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-11-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-233.92%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -60,7 +62,7 @@ JavaScript               1 repo              ███░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
 
 
- Last Updated on 22/05/2026 03:35:34 UTC
+ Last Updated on 23/05/2026 02:52:57 UTC
 <!--END_SECTION:waka-->
 
 <p align="center">
