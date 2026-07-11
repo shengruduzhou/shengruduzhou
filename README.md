@@ -161,7 +161,15 @@ flowchart LR
 <br />
 
 <!--START_SECTION:waka-->
-> Telemetry will appear after the `Waka Readme` workflow runs successfully.
+
+```txt
+Total Time: 22 hrs 17 mins
+
+Python     21 hrs 46 mins  ██████████████████████░░░   88.00 %
+Other      2 hrs 27 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.93 %
+Markdown   30 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.07 %
+```
+
 <!--END_SECTION:waka-->
 
 </details>
