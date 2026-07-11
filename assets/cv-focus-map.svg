@@ -17,7 +17,7 @@
 
   <g font-family="Segoe UI,Arial,sans-serif">
     <g transform="translate(55 116)">
-      <rect width="250" height="170" rx="20" fill="#071827" stroke="#0e7490" stroke-width="2"/>
+      <rect width="300" height="170" rx="20" fill="#071827" stroke="#0e7490" stroke-width="2"/>
       <circle cx="64" cy="59" r="32" fill="#083344" stroke="#22d3ee" stroke-width="2"/>
       <path d="M35 59c18-18 40-18 58 0M35 59c18 18 40 18 58 0M64 27c-14 18-14 46 0 64M64 27c14 18 14 46 0 64" fill="none" stroke="#67e8f9" stroke-width="2"/>
       <text x="112" y="54" fill="#67e8f9" font-size="16" font-weight="800" letter-spacing="1">01 / INPUT</text>
