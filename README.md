@@ -2,8 +2,8 @@
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,25:0f172a,65:312e81,100:06b6d4&height=220&section=header&text=SHAN%20HEFU&fontSize=54&fontColor=e2e8f0&animation=fadeIn&fontAlignY=37&desc=COMPUTER%20VISION%20%C2%B7%20SELF-SUPERVISED%20LEARNING%20%C2%B7%20FULL-STACK%20ENGINEERING&descAlignY=60&descSize=17"
-  alt="Shan Hefu header"
+  src="./assets/hero-cyber.svg"
+  alt="Shan Hefu · Computer Vision and AI Engineering"
 />
 
 <h1>Hi there, I'm Shan Hefu 👋</h1>
@@ -66,23 +66,11 @@ My current work focuses on **panoramic and spherical visual data**, with strong 
 
 <div align="center">
 
-| ![](https://img.shields.io/badge/01-PANORAMIC_VISION-111827?style=for-the-badge&logo=opencv&logoColor=22D3EE) | ![](https://img.shields.io/badge/02-DENSE_PREDICTION-111827?style=for-the-badge&logo=pytorch&logoColor=818CF8) | ![](https://img.shields.io/badge/03-AI_SYSTEMS-111827?style=for-the-badge&logo=fastapi&logoColor=22C55E) |
-|---|---|---|
-| 360° image understanding | Segmentation · Depth · Normal | Research pipelines · Deployment |
-
-</div>
-
-<div align="center">
-
-```mermaid
-flowchart LR
-    A[360° Panorama] --> B[Representation Learning]
-    B --> C[PanoMAE Encoder]
-    C --> D[Visual Features]
-    D --> E[Segmentation]
-    D --> F[Depth Estimation]
-    D --> G[Surface Normal]
-```
+<img
+  width="100%"
+  src="./assets/cv-focus-map.svg"
+  alt="Computer vision focus map: panoramic vision, representation learning and dense prediction"
+/>
 
 </div>
 
@@ -136,6 +124,14 @@ flowchart LR
 <div align="center">
 
 <img
+  width="100%"
+  src="./assets/activity-node.svg"
+  alt="Contribution activity signal panel"
+/>
+
+<br />
+
+<img
   width="98%"
   src="./profile-3d-contrib/profile-night-rainbow.svg"
   alt="3D contribution calendar"
@@ -180,9 +176,11 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/WAKATIME-DETAILED_TELEMETRY-020617?style=for-the-badge&labelColor=0F172A&color=06B6D4" alt="WakaTime" />
-<img src="https://img.shields.io/badge/GITHUB-CODING_ACTIVITY-020617?style=for-the-badge&labelColor=0F172A&color=6366F1" alt="GitHub activity" />
-<img src="https://img.shields.io/badge/UPDATE-DAILY-020617?style=for-the-badge&labelColor=0F172A&color=22C55E" alt="Daily update" />
+<img
+  width="100%"
+  src="./assets/telemetry-node.svg"
+  alt="Development telemetry console"
+/>
 
 </div>
 
@@ -194,15 +192,66 @@ flowchart LR
 <br />
 
 <!--START_SECTION:waka-->
+```text
+Code Time                 2,429 hrs 45 mins
+Profile Views             0
+Lines of Code             412.19 thousand
 
-```txt
-Total Time: 22 hrs 17 mins
+🐱 My GitHub Data
 
-Python     21 hrs 46 mins  ██████████████████████░░░   88.00 %
-Other      2 hrs 27 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.93 %
-Markdown   30 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.07 %
+📦 Used in GitHub's Storage
+🏆 11 Contributions in the Year 2026
+💼 Opted to Hire
+📜 6 Public Repositories
+🔑 0 Private Repositories
+
+I'm a Night 🦉
+
+🌞 Morning                51 commits          11.06%
+🌆 Daytime                77 commits          16.70%
+🌃 Evening                77 commits          16.70%
+🌙 Night                  256 commits         55.53%
+
+I'm Most Productive on Thursday
+
+Monday                    72 commits          15.62%
+Tuesday                   37 commits          08.03%
+Wednesday                 43 commits          09.33%
+Thursday                  135 commits         29.28%
+Friday                    53 commits          11.50%
+Saturday                  64 commits          13.88%
+Sunday                    57 commits          12.36%
+
+This Week I Spent My Time On
+
+Time Zone: Asia/Shanghai
+
+Programming Languages:
+Python                    18 hrs 8 mins       77.07%
+Other                     3 hrs 33 mins       15.12%
+Markdown                  1 hr 50 mins        07.81%
+
+Editors:
+Chrome                    17 hrs 47 mins      75.58%
+VS Code                   3 hrs 9 mins        13.44%
+Claude Code               2 hrs 35 mins       10.98%
+
+Projects:
+2026-SHAN-HEFU            18 hrs 22 mins      78.04%
+QuantAgent                3 hrs 26 mins       14.60%
+ultralytics               1 hr 43 mins        07.36%
+
+Operating System:
+Mac                       20 hrs 11 mins      85.77%
+Linux                     3 hrs 20 mins       14.23%
+
+I Mostly Code in Python
+
+Python                    5 repos             55.56%
+TypeScript                2 repos             22.22%
+CSS                       1 repo              11.11%
+JavaScript                1 repo              11.11%
 ```
-
 <!--END_SECTION:waka-->
 
 </details>
@@ -227,6 +276,6 @@ Markdown   30 mins         ▓░░░░░░░░░░░░░░░░�
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:020617&height=160&section=footer"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:020617&height=120&section=footer"
   alt="Footer gradient"
 />
