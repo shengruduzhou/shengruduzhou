@@ -192,66 +192,15 @@ My current work focuses on **panoramic and spherical visual data**, with strong 
 <br />
 
 <!--START_SECTION:waka-->
-```text
-Code Time                 2,429 hrs 45 mins
-Profile Views             0
-Lines of Code             412.19 thousand
 
-🐱 My GitHub Data
+```txt
+Total Time: 22 hrs 17 mins
 
-📦 Used in GitHub's Storage
-🏆 11 Contributions in the Year 2026
-💼 Opted to Hire
-📜 6 Public Repositories
-🔑 0 Private Repositories
-
-I'm a Night 🦉
-
-🌞 Morning                51 commits          11.06%
-🌆 Daytime                77 commits          16.70%
-🌃 Evening                77 commits          16.70%
-🌙 Night                  256 commits         55.53%
-
-I'm Most Productive on Thursday
-
-Monday                    72 commits          15.62%
-Tuesday                   37 commits          08.03%
-Wednesday                 43 commits          09.33%
-Thursday                  135 commits         29.28%
-Friday                    53 commits          11.50%
-Saturday                  64 commits          13.88%
-Sunday                    57 commits          12.36%
-
-This Week I Spent My Time On
-
-Time Zone: Asia/Shanghai
-
-Programming Languages:
-Python                    18 hrs 8 mins       77.07%
-Other                     3 hrs 33 mins       15.12%
-Markdown                  1 hr 50 mins        07.81%
-
-Editors:
-Chrome                    17 hrs 47 mins      75.58%
-VS Code                   3 hrs 9 mins        13.44%
-Claude Code               2 hrs 35 mins       10.98%
-
-Projects:
-2026-SHAN-HEFU            18 hrs 22 mins      78.04%
-QuantAgent                3 hrs 26 mins       14.60%
-ultralytics               1 hr 43 mins        07.36%
-
-Operating System:
-Mac                       20 hrs 11 mins      85.77%
-Linux                     3 hrs 20 mins       14.23%
-
-I Mostly Code in Python
-
-Python                    5 repos             55.56%
-TypeScript                2 repos             22.22%
-CSS                       1 repo              11.11%
-JavaScript                1 repo              11.11%
+Python     21 hrs 46 mins  ██████████████████████░░░   88.00 %
+Other      2 hrs 27 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.93 %
+Markdown   30 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.07 %
 ```
+
 <!--END_SECTION:waka-->
 
 </details>
