@@ -58,11 +58,11 @@
 
   <g transform="translate(72 332)" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">
     <rect width="215" height="46" rx="12" fill="#082f49" stroke="#06b6d4" stroke-opacity="0.75"/>
-    <text x="107.5" y="29" fill="#67e8f9" text-anchor="middle">360° VISION</text>
+    <text x="107.5" y="29" fill="#67e8f9" text-anchor="middle">Computer Vision</text>
     <rect x="231" width="250" height="46" rx="12" fill="#1e1b4b" stroke="#818cf8" stroke-opacity="0.75"/>
-    <text x="356" y="29" fill="#c7d2fe" text-anchor="middle">SELF-SUPERVISED AI</text>
+    <text x="356" y="29" fill="#c7d2fe" text-anchor="middle">Deep Learning</text>
     <rect x="497" width="235" height="46" rx="12" fill="#052e2b" stroke="#22c55e" stroke-opacity="0.7"/>
-    <text x="614.5" y="29" fill="#86efac" text-anchor="middle">FULL-STACK SYSTEMS</text>
+    <text x="614.5" y="29" fill="#86efac" text-anchor="middle">FULL-STACK</text>
   </g>
 
   <g transform="translate(887 102)">
