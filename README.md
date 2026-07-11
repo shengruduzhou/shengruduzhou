@@ -41,9 +41,9 @@
 <tr>
 <td width="60%" valign="top">
 
-I am a Computer Science master's student at **Sophia University** working at the intersection of **computer vision**, **machine learning**, and **software development**.
+I am a Computer Science master's student at **Sophia University** working at the intersection of **computer vision**, **machine learning**, and **production-oriented software engineering**.
 
-My current work focuses on **panoramic image**, with strong interest in **self-supervised learning**, **representation learning**, and **dense visual prediction**.
+My current work focuses on **panoramic and spherical visual data**, with strong interest in **self-supervised learning**, **representation learning**, and **dense visual prediction**. I also build practical AI systems and full-stack tools that carry research into usable products.
 
 </td>
 <td width="40%" valign="top">
@@ -278,6 +278,6 @@ JavaScript                1 repo              11.11%
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:020617&height=120&section=footer"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:020617&height=160&section=footer"
   alt="Footer gradient"
 />
