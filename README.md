@@ -1,136 +1,428 @@
-<h1 align="center">
-  Hi there, I'm Shan Hefu (タン カクフ) 👋
+<!-- =========================================================
+     GitHub Profile README
+     Author: Shan Hefu
+     Repository: shengruduzhou/shengruduzhou
+========================================================== -->
+
+<div align="center">
+
+<img
+width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0f172a,70:312e81,100:06b6d4&height=220&section=header&text=SHAN%20HEFU&fontSize=56&fontColor=e2e8f0&animation=fadeIn&fontAlignY=36&desc=Machine%20Learning%20%C2%B7%20Computer%20Vision%20%C2%B7%20Full-Stack%20Engineering&descAlignY=57&descSize=17"
+alt="Shan Hefu header"
+/>
+
+<h1>
+  Hi, I'm Shan Hefu
+  <span>👋</span>
 </h1>
 
-<p align="center">
-  <em>M.S. in Computer Science at Sophia University | Machine Learning & Full Stack </em>
-  <br />
-  <a href="https://github.com/shengruduzhou">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=shengruduzhou.shengruduzhou&left_text=Visitors" alt="visitor badge"/>
-  </a>
+<p>
+  <strong>タン カクフ｜Sophia University, Tokyo</strong>
 </p>
+
+<a href="https://readme-typing-svg.demolab.com">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=22D3EE&center=true&vCenter=true&repeat=true&width=820&height=70&lines=M.S.+in+Computer+Science+%40+Sophia+University;Panoramic+Vision+%7C+Representation+Learning+%7C+Diffusion;Building+AI+systems+from+research+to+production"
+    alt="Typing introduction"
+  />
+</a>
+
+<br />
+
+<img
+src="https://komarev.com/ghpvc/?username=shengruduzhou&style=flat-square&color=06b6d4&label=PROFILE+VIEWS"
+alt="Profile views"
+/> <img
+src="https://img.shields.io/badge/Tokyo-Japan-0ea5e9?style=flat-square&logo=googlemaps&logoColor=white"
+alt="Tokyo, Japan"
+/> <img
+src="https://img.shields.io/badge/Sophia_University-M.S._Computer_Science-6366f1?style=flat-square&logo=academia&logoColor=white"
+alt="Sophia University"
+/> <img
+src="https://img.shields.io/badge/Focus-AI_%C2%B7_CV_%C2%B7_Full_Stack-22c55e?style=flat-square"
+alt="AI, Computer Vision and Full Stack"
+/>
+
+<br /><br />
+
+<a href="https://shanhefu-portfolio.vercel.app/">
+  <img
+    src="https://img.shields.io/badge/PORTFOLIO-06B6D4?style=for-the-badge&logo=vercel&logoColor=white"
+    alt="Portfolio"
+  />
+</a>
+<a href="https://shengruduzhou.github.io/">
+  <img
+    src="https://img.shields.io/badge/HOMEPAGE-181717?style=for-the-badge&logo=githubpages&logoColor=white"
+    alt="Homepage"
+  />
+</a>
+<a href="https://shengruduzhou.github.io/about%20me/2025/06/05/Introduction.html">
+  <img
+    src="https://img.shields.io/badge/RESUME-EF4444?style=for-the-badge&logo=readme&logoColor=white"
+    alt="Resume"
+  />
+</a>
+<a href="mailto:shanhefu@gmail.com">
+  <img
+    src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+    alt="Email"
+  />
+</a>
+<a href="https://linkedin.com/in/hefu-shan-054b24361/">
+  <img
+    src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="LinkedIn"
+  />
+</a>
+
+</div>
 
 ---
 
-### 🌐 About Me
+## `01.` About Me
 
-<p align="center">
-  <b>Curious about my work? You'll find my portfolio, resume, and more on my personal website</b>
-  <br><br>
-  <a href="http://shengruduzhou.github.io/" target="blank" rel="noreferrer"><img src="https://img.shields.io/badge/Mypage-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="Personal Website"/></a>
-  <a href="https://shanhefu-portfolio.vercel.app/" target="blank" rel="noreferrer"><img src="https://img.shields.io/badge/Portfolio-28a745?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Personal Website"/></a>
-  <a href="https://shengruduzhou.github.io/about%20me/2025/06/05/Introduction.html" target="blank" rel="noreferrer"><img src="https://img.shields.io/badge/Resume-d14836?style=for-the-badge&logo=reactiveresume&logoColor=white" alt="Resume/CV"/></a>
-</p>
-</p>
+```text
+Researcher  : Machine Learning and Computer Vision
+Engineer    : Full-Stack Systems and AI Applications
+University  : Sophia University
+Location    : Tokyo, Japan
+Languages   : Chinese · Japanese · English
+```
+
+I am a Computer Science master's student working at the intersection of
+**machine learning research**, **computer vision**, and **production-oriented
+software engineering**.
+
+My current work focuses on learning robust representations for panoramic
+and spherical visual data, while also exploring how modern generative models
+can support downstream perception tasks.
+
+* 🔭 Researching **panoramic representation learning** and **360° computer vision**
+* 🧠 Working with **Masked Autoencoders, Vision Transformers and Diffusion Transformers**
+* 🌐 Building end-to-end AI systems with modern full-stack technologies
+* 📈 Exploring quantitative research, automated analysis and data-driven decision systems
+* ⚙️ Interested in efficient model design, reproducible experiments and reliable deployment
 
 ---
 
-### 📊 My GitHub Stats
+## `02.` Research & Engineering Focus
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 Machine Learning Research
+
+* Self-supervised representation learning
+* Masked image modeling
+* Vision Transformers
+* Diffusion models and DiT
+* Positional and geometric encoding
+* Model ablation and evaluation
+
+</td>
+<td width="50%" valign="top">
+
+### 👁️ Computer Vision
+
+* Panoramic and spherical vision
+* 360° image understanding
+* Semantic segmentation
+* Monocular depth estimation
+* Surface normal estimation
+* Dense visual prediction
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ AI Engineering
+
+* PyTorch training pipelines
+* Distributed model training
+* Dataset and augmentation systems
+* Experiment tracking and validation
+* Model inference and deployment
+* Performance and memory optimization
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 Full-Stack Development
+
+* React and Next.js applications
+* TypeScript-based frontend systems
+* Python and FastAPI backends
+* REST API design
+* Cloud deployment
+* AI-enabled product development
+
+</td>
+</tr>
+</table>
+
+---
+
+## `03.` Technology Stack
+
+<div align="center">
+
+### AI · Computer Vision · Data
+
+<p>
+  <img
+    src="https://skillicons.dev/icons?i=py,pytorch,opencv,sklearn&theme=dark"
+    alt="AI and computer vision skills"
+  />
+</p>
+
+`Python` · `PyTorch` · `OpenCV` · `NumPy` · `Pandas` · `Scikit-learn`
+
+### Frontend · Backend
+
+<p>
+  <img
+    src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,fastapi,html,css,tailwind&theme=dark&perline=9"
+    alt="Full-stack development skills"
+  />
+</p>
+
+`TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `FastAPI`
+
+### Infrastructure · Tooling
+
+<p>
+  <img
+    src="https://skillicons.dev/icons?i=docker,linux,git,githubactions,vercel,postgres,vscode&theme=dark"
+    alt="Infrastructure and development tools"
+  />
+</p>
+
+`Docker` · `Linux` · `Git` · `GitHub Actions` · `Vercel` · `PostgreSQL`
+
+</div>
+
+---
+
+## `04.` Current Research
+
+<table>
+<tr>
+<td width="160" align="center">
+  <strong>PanoMAE</strong>
+</td>
+<td>
+
+**Panoramic Masked Autoencoding**
+
+Researching self-supervised representation learning for equirectangular
+panoramas using tangent-view tokenization, spherical geometric information
+and transformer-based encoders.
+
+</td>
+</tr>
+
+<tr>
+<td width="160" align="center">
+  <strong>Dense Prediction</strong>
+</td>
+<td>
+
+**Panoramic Scene Understanding**
+
+Developing downstream systems for semantic segmentation, depth estimation
+and surface-normal prediction on panoramic visual data.
+
+</td>
+</tr>
+
+<tr>
+<td width="160" align="center">
+  <strong>Diffusion</strong>
+</td>
+<td>
+
+**Diffusion Transformer Integration**
+
+Exploring the use of pretrained panoramic encoders as latent representation
+extractors for DiT-based generative and downstream perception models.
+
+</td>
+</tr>
+
+</table>
+
+---
+
+## `05.` Selected Repositories
+
+<div align="center">
+
+<a href="https://github.com/shengruduzhou/FormulaForge">
+  <img
+    width="48%"
+    src="https://github-stats-extended.vercel.app/api/pin/?username=shengruduzhou&repo=FormulaForge&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=818CF8&text_color=C9D1D9"
+    alt="FormulaForge repository"
+  />
+</a>
+
+<a href="https://github.com/shengruduzhou/Feedback_System">
+  <img
+    width="48%"
+    src="https://github-stats-extended.vercel.app/api/pin/?username=shengruduzhou&repo=Feedback_System&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=818CF8&text_color=C9D1D9"
+    alt="Feedback System repository"
+  />
+</a>
+
+<br />
+
+<a href="https://github.com/shengruduzhou/shengruduzhou.github.io">
+  <img
+    width="48%"
+    src="https://github-stats-extended.vercel.app/api/pin/?username=shengruduzhou&repo=shengruduzhou.github.io&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=818CF8&text_color=C9D1D9"
+    alt="Personal website repository"
+  />
+</a>
+
+<a href="https://github.com/shengruduzhou?tab=repositories">
+  <img
+    width="48%"
+    src="https://github-stats-extended.vercel.app/api/pin/?username=shengruduzhou&repo=Settings&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=818CF8&text_color=C9D1D9"
+    alt="Settings repository"
+  />
+</a>
+
+</div>
+
+<div align="center">
+
+[Explore all repositories](https://github.com/shengruduzhou?tab=repositories)
+
+</div>
+
+---
+
+## `06.` GitHub Analytics
+
+<div align="center">
+
+<a href="https://github.com/shengruduzhou">
+  <img
+    height="185"
+    src="https://github-stats-extended.vercel.app/api?username=shengruduzhou&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=818CF8&text_color=C9D1D9&ring_color=22D3EE"
+    alt="Shan Hefu GitHub statistics"
+  />
+</a>
+
+<a href="https://github.com/shengruduzhou?tab=repositories">
+  <img
+    height="185"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=shengruduzhou&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9"
+    alt="Most used languages"
+  />
+</a>
+
+<br />
+
+<sub>
+  Language statistics represent code volume in public, non-fork repositories,
+  not proficiency.
+</sub>
+
+</div>
+
+<br />
+
+<div align="center">
+
+<img
+width="98%"
+src="https://github-readme-activity-graph.vercel.app/graph?username=shengruduzhou&bg_color=0d1117&color=c9d1d9&line=22d3ee&point=818cf8&area=true&area_color=312e81&hide_border=true&custom_title=Contribution%20Activity"
+alt="GitHub contribution activity graph"
+/>
+
+</div>
+
+---
+
+## `07.` Development Metrics
+
+<details>
+<summary>
+  <strong>Expand WakaTime and development statistics</strong>
+</summary>
+
+<br />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C429%20hrs%2045%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-412.19%20thousand%20lines%20of%20code-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 11 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 6 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                51 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.06 % 
-🌆 Daytime                77 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.70 % 
-🌃 Evening                77 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.70 % 
-🌙 Night                  256 commits         ██████████████░░░░░░░░░░░   55.53 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   72 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.62 % 
-Tuesday                  37 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.03 % 
-Wednesday                43 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.33 % 
-Thursday                 135 commits         ███████░░░░░░░░░░░░░░░░░░   29.28 % 
-Friday                   53 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.50 % 
-Saturday                 64 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.88 % 
-Sunday                   57 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.36 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Shanghai
-
-💬 Programming Languages: 
-Python                   18 hrs 8 mins       ███████████████████░░░░░░   77.07 % 
-Other                    3 hrs 33 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.12 % 
-Markdown                 1 hr 50 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.81 % 
-
-🔥 Editors: 
-Chrome                   17 hrs 47 mins      ███████████████████░░░░░░   75.58 % 
-VS Code                  3 hrs 9 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.44 % 
-Claude Code              2 hrs 35 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.98 % 
-
-🐱‍💻 Projects: 
-2026-SHAN-HEFU           18 hrs 22 mins      ████████████████████░░░░░   78.04 % 
-QuantAgent               3 hrs 26 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.60 % 
-ultralytics              1 hr 43 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.36 % 
-
-💻 Operating System: 
-Mac                      20 hrs 11 mins      █████████████████████░░░░   85.77 % 
-Linux                    3 hrs 20 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.23 % 
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   5 repos             ██████████████░░░░░░░░░░░   55.56 % 
-TypeScript               2 repos             ██████░░░░░░░░░░░░░░░░░░░   22.22 % 
-CSS                      1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-JavaScript               1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/shengruduzhou/shengruduzhou/main/assets/bar_graph.png)
-
-
- Last Updated on 11/07/2026 02:33:18 UTC
 <!--END_SECTION:waka-->
 
-<p align="center">
-  <a href="https://github.com/shengruduzhou">
-    <img
-      src="https://github-stats-extended.vercel.app/api?username=shengruduzhou&show_icons=true&locale=en&theme=tokyonight"
-      alt="shengruduzhou's github stats"
-    />
-  </a>
-  <a href="https://github.com/shengruduzhou">
-    <img
-      src="https://github-stats-extended.vercel.app/api/top-langs/?username=shengruduzhou&layout=compact&locale=en&theme=tokyonight"
-      alt="shengruduzhou's top langs"
-    />
-  </a>
-</p>
+</details>
 
 ---
 
-### 📫 Contact Me
+## `08.` Beyond Code
 
-<p align="left">
-  <a href="mailto:shanhefu@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="shanhefu@gmail.com" /></a>
-  <a href="https://linkedin.com/in/hefu-shan-054b24361/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="hefu-shan-linkedin" /></a>
+```yaml
+interests:
+  - panoramic photography and visual computing
+  - quantitative finance and stock-market research
+  - artificial intelligence systems
+  - interface and information design
+  - multilingual technical communication
+
+working_style:
+  - evidence-driven
+  - reproducible
+  - performance-conscious
+  - detail-oriented
+```
+
+---
+
+## `09.` Contact
+
+<div align="center">
+
+<p>
+  I am interested in research collaboration, AI engineering,
+  computer-vision projects and full-stack product development.
 </p>
+
+<a href="mailto:shanhefu@gmail.com">
+  <img
+    src="https://img.shields.io/badge/shanhefu%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+    alt="Email Shan Hefu"
+  />
+</a>
+
+<a href="https://linkedin.com/in/hefu-shan-054b24361/">
+  <img
+    src="https://img.shields.io/badge/HEFU_SHAN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="Shan Hefu LinkedIn"
+  />
+</a>
+
+<a href="https://shanhefu-portfolio.vercel.app/">
+  <img
+    src="https://img.shields.io/badge/VIEW_PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white"
+    alt="View portfolio"
+  />
+</a>
+
+<br /><br />
+
+<code>Research → Engineering → Deployment</code>
+
+</div>
+
+<img
+width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:020617&height=120&section=footer"
+alt="Footer"
+/>
