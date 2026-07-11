@@ -1,9 +1,3 @@
-<!-- =========================================================
-     GitHub Profile README · Tech Edition
-     Author: Shan Hefu
-     Repository: shengruduzhou/shengruduzhou
-========================================================== -->
-
 <div align="center">
 
 <img
@@ -162,11 +156,12 @@ flowchart LR
 </div>
 
 <details>
-<summary><strong>Open development telemetry</strong></summary>
+<summary><strong>⚡ Development Telemetry · Last 7 Days</strong></summary>
 
 <br />
 
 <!--START_SECTION:waka-->
+> Telemetry will appear after the `Waka Readme` workflow runs successfully.
 <!--END_SECTION:waka-->
 
 </details>
@@ -183,7 +178,11 @@ flowchart LR
 
 <br /><br />
 
-<code>RESEARCH://PANORAMIC_AI</code> · <code>BUILD://FULL_STACK</code> · <code>SHIP://RELIABLE_SYSTEMS</code>
+<p>
+  <img src="https://img.shields.io/badge/RESEARCH-PANORAMIC_AI-0F172A?style=flat-square&labelColor=020617&color=06B6D4" alt="Research: Panoramic AI" />
+  <img src="https://img.shields.io/badge/BUILD-FULL_STACK-0F172A?style=flat-square&labelColor=020617&color=6366F1" alt="Build: Full Stack" />
+  <img src="https://img.shields.io/badge/SHIP-RELIABLE_SYSTEMS-0F172A?style=flat-square&labelColor=020617&color=22C55E" alt="Ship: Reliable Systems" />
+</p>
 
 </div>
 
