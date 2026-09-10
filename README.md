@@ -194,9 +194,9 @@ My current work focuses on **panoramic and spherical visual data**, with strong 
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 10 mins
+Total Time: 2 hrs 50 mins
 
-Markdown   10 mins         █████████████████████████   100.00 %
+Markdown   2 hrs 50 mins   █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
