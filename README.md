@@ -196,8 +196,8 @@ My current work focuses on **panoramic and spherical visual data**, with strong 
 ```txt
 Total Time: 13 hrs 41 mins
 
-Markdown     10 hrs 20 mins  ██████████████████▓░░░░░░   74.02 %
-Text         3 hrs 6 mins    █████▓░░░░░░░░░░░░░░░░░░░   22.24 %
+Markdown     10 hrs 20 mins  ██████████████████▒░░░░░░   73.98 %
+Text         3 hrs 6 mins    █████▓░░░░░░░░░░░░░░░░░░░   22.28 %
 Other        17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.03 %
 SSH Config   14 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.71 %
 ```
