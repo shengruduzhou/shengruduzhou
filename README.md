@@ -196,10 +196,10 @@ My current work focuses on **panoramic and spherical visual data**, with strong 
 ```txt
 Total Time: 33 hrs 19 mins
 
-Text         17 hrs 38 mins  ██████████▓░░░░░░░░░░░░░░   42.86 %
-Python       15 hrs 5 mins   █████████▒░░░░░░░░░░░░░░░   36.69 %
-Other        7 hrs 49 mins   ████▓░░░░░░░░░░░░░░░░░░░░   19.03 %
-Markdown     20 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.84 %
+Text         17 hrs 38 mins  ██████████▓░░░░░░░░░░░░░░   42.53 %
+Python       15 hrs 5 mins   █████████░░░░░░░░░░░░░░░░   36.41 %
+Other        8 hrs 8 mins    █████░░░░░░░░░░░░░░░░░░░░   19.65 %
+Markdown     20 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.83 %
 SSH Config   14 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.58 %
 ```
 
