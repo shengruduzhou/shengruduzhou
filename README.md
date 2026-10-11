@@ -194,11 +194,11 @@ My current work focuses on **panoramic and spherical visual data**, with strong 
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 39 hrs 12 mins
+Total Time: 31 hrs 40 mins
 
-Text     24 hrs 2 mins   ███████████░░░░░░░░░░░░░░   43.90 %
-Other    15 hrs 32 mins  ███████░░░░░░░░░░░░░░░░░░   28.38 %
-Python   15 hrs 10 mins  ███████░░░░░░░░░░░░░░░░░░   27.72 %
+Text     23 hrs 21 mins  █████████████▒░░░░░░░░░░░   53.67 %
+Other    11 hrs 49 mins  ██████▓░░░░░░░░░░░░░░░░░░   27.19 %
+Python   8 hrs 19 mins   ████▓░░░░░░░░░░░░░░░░░░░░   19.14 %
 ```
 
 <!--END_SECTION:waka-->
