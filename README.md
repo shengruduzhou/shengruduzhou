@@ -1,37 +1,30 @@
 # Shan Hefu
 
-**Computer vision · Machine learning · Research engineering**
+Computer vision · Self-supervised learning · Research engineering
 
-M.S. student in Computer Science at Sophia University, Tokyo. I study how visual representations can be learned from unlabelled panoramic images.
+I'm a computer science master's student at Sophia University, Tokyo. I study how models learn visual representations from unlabelled panoramic images.
 
 [Website](https://shengruduzhou.github.io/) · [Portfolio](https://shanhefu-portfolio.vercel.app/) · [CV (EN)](https://shengruduzhou.github.io/assets/CV.pdf) · [CV (中文)](https://shengruduzhou.github.io/assets/CV_CN.pdf) · [LinkedIn](https://linkedin.com/in/hefu-shan-054b24361/) · [Email](mailto:shanhefu@gmail.com)
 
-<img src="./assets/field/field-001.svg" width="100%" alt="A ray-cast panoramic architectural scene, with a lime cuboid at zero degrees of longitude." />
+<a href="https://shengruduzhou.github.io/labs/atlas/">
+  <img src="./assets/atlas/atlas-motion.gif" width="100%" alt="Atlas — animated preview of a rotating 3D spherical sampling surface with a cobalt angular patch. Open Atlas for the interactive model." />
+</a>
 
-<sub>FIELD 001 — A synthetic 360° horizontal view, rendered from a single camera centre. <a href="./scripts/generate-field.cjs">Source</a>.</sub>
-
-## Research
-
-I work on self-supervised learning for spherical imagery, with a focus on geometric representation and transfer to semantic segmentation, depth estimation and surface normal estimation.
+**[Explore Atlas ↗](https://shengruduzhou.github.io/labs/atlas/)** — An interactive 3D study of spherical geometry. Rotate the surface, zoom in, and unfold it into equirectangular coordinates. [Source](https://github.com/shengruduzhou/shengruduzhou.github.io/tree/main/labs/atlas).
 
 ## Selected work
 
-### [FormulaForge](https://github.com/shengruduzhou/FormulaForge)
+| Project | Focus |
+| :--- | :--- |
+| **[FormulaForge](https://github.com/shengruduzhou/FormulaForge)** | Reading mathematics in research papers through formula parsing and optional multimodal analysis. |
+| **[QuantAgent](https://github.com/shengruduzhou/QuantAgent)** | Point-in-time research for Chinese equities, rolling out-of-sample evaluation and portfolio constraints. Live trading is disabled by default. |
+| **[Notes & Projects](https://shengruduzhou.github.io/)** | Research notes, technical writing and project documentation. |
 
-A workspace for reading the mathematics in research papers. It combines deterministic parsing of LaTeX with optional multimodal analysis of equations and screenshots.
+## Research
 
-### [QuantAgent](https://github.com/shengruduzhou/QuantAgent)
+Self-supervised representation learning for 360° imagery, spherical geometry, and transfer to semantic segmentation, depth and surface normal estimation.
 
-A point-in-time research system for Chinese equities. It supports rolling out-of-sample evaluation, transaction-cost modelling and auditable portfolio constraints. Live trading is disabled by default.
-
-### [Notes & Projects](https://shengruduzhou.github.io/)
-
-Research notes, technical writing and project documentation. [Site source](https://github.com/shengruduzhou/shengruduzhou.github.io).
-
----
-
-**Research:** Python, PyTorch, OpenCV  
-**Engineering:** TypeScript, React, FastAPI
+Python, PyTorch and OpenCV for research; TypeScript, React and FastAPI for software engineering.
 
 <details>
 <summary>Development activity</summary>
@@ -61,3 +54,4 @@ TeX        2 mins          ░░░░░░░░░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 </details>
+
