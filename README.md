@@ -37,12 +37,10 @@ I study visual representation learning for panoramic images, with an emphasis on
 
 <!-- METRICS:START -->
 <p align="center">
-  <a href="https://metrics.lecoq.io/shengruduzhou?template=classic&amp;base=header%2Cactivity%2Ccommunity%2Crepositories&amp;isocalendar=1&amp;isocalendar.duration=half-year&amp;languages=1&amp;languages.limit=6&amp;config.timezone=Asia%2FTokyo">
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="GitHub contribution activity" />
-  </a>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="GitHub contribution activity" />
 </p>
 
-[Open live Metrics dashboard](https://metrics.lecoq.io/shengruduzhou?template=classic&base=header%2Cactivity%2Ccommunity%2Crepositories&isocalendar=1&isocalendar.duration=half-year&languages=1&languages.limit=6&config.timezone=Asia%2FTokyo) · [Metrics workflow](./.github/workflows/metrics.yml)
+<sub><a href="./.github/workflows/metrics.yml">Metrics workflow</a> · Contribution calendar shown until the Metrics render is available.</sub>
 <!-- METRICS:END -->
 
 <p align="center">
