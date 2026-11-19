@@ -1,43 +1,68 @@
-# Shan Hefu
+<div align="center">
 
-Computer vision · Self-supervised learning · Research engineering
+<h1>Shan Hefu</h1>
 
-I'm a computer science master's student at Sophia University, Tokyo. I study how models learn visual representations from unlabelled panoramic images.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=19&amp;duration=3200&amp;pause=1800&amp;color=79C0FF&amp;center=true&amp;vCenter=true&amp;width=450&amp;height=42&amp;lines=Computer+Vision;Self-supervised+Learning;Research+Engineering">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=19&amp;duration=3200&amp;pause=1800&amp;color=0969DA&amp;center=true&amp;vCenter=true&amp;width=450&amp;height=42&amp;lines=Computer+Vision;Self-supervised+Learning;Research+Engineering">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=19&amp;duration=3200&amp;pause=1800&amp;color=0969DA&amp;center=true&amp;vCenter=true&amp;width=450&amp;height=42&amp;lines=Computer+Vision;Self-supervised+Learning;Research+Engineering" width="450" alt="Computer vision · Self-supervised learning · Research engineering" />
+</picture>
 
-[Website](https://shengruduzhou.github.io/) · [Portfolio](https://shanhefu-portfolio.vercel.app/) · [CV (EN)](https://shengruduzhou.github.io/assets/CV.pdf) · [CV (中文)](https://shengruduzhou.github.io/assets/CV_CN.pdf) · [LinkedIn](https://linkedin.com/in/hefu-shan-054b24361/) · [Email](mailto:shanhefu@gmail.com)
+M.S. in Computer Science · Sophia University · Tokyo, Japan
 
-<a href="https://shengruduzhou.github.io/labs/atlas/">
-  <img src="./assets/atlas/atlas-motion.gif" width="100%" alt="Atlas — animated preview of a rotating 3D spherical sampling surface with a cobalt angular patch. Open Atlas for the interactive model." />
-</a>
+<a href="https://shengruduzhou.github.io/"><img src="https://img.shields.io/badge/Website-24292F?style=flat-square&amp;logo=githubpages&amp;logoColor=white" alt="Website" /></a>
+<a href="https://shanhefu-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-24292F?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="Portfolio" /></a>
+<a href="https://shengruduzhou.github.io/assets/CV.pdf"><img src="https://img.shields.io/badge/CV_EN-24292F?style=flat-square" alt="CV EN" /></a>
+<a href="https://shengruduzhou.github.io/assets/CV_CN.pdf"><img src="https://img.shields.io/badge/CV_中文-24292F?style=flat-square" alt="CV 中文" /></a>
+<a href="https://linkedin.com/in/hefu-shan-054b24361/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:shanhefu@gmail.com"><img src="https://img.shields.io/badge/Email-24292F?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
 
-**[Explore Atlas ↗](https://shengruduzhou.github.io/labs/atlas/)** — An interactive 3D study of spherical geometry. Rotate the surface, zoom in, and unfold it into equirectangular coordinates. [Source](https://github.com/shengruduzhou/shengruduzhou.github.io/tree/main/labs/atlas).
+</div>
 
-## Selected work
+## Research & engineering
 
-| Project | Focus |
+I study visual representation learning for panoramic images, with an emphasis on spherical geometry and self-supervised learning. My work explores how learned representations transfer to segmentation, depth estimation and surface normal estimation.
+
+| Research | Selected software |
 | :--- | :--- |
-| **[FormulaForge](https://github.com/shengruduzhou/FormulaForge)** | Reading mathematics in research papers through formula parsing and optional multimodal analysis. |
-| **[QuantAgent](https://github.com/shengruduzhou/QuantAgent)** | Point-in-time research for Chinese equities, rolling out-of-sample evaluation and portfolio constraints. Live trading is disabled by default. |
-| **[Notes & Projects](https://shengruduzhou.github.io/)** | Research notes, technical writing and project documentation. |
+| Panoramic computer vision<br>Self-supervised representation learning<br>Dense visual prediction | **[FormulaForge](https://github.com/shengruduzhou/FormulaForge)** — mathematical analysis for research papers<br>**[QuantAgent](https://github.com/shengruduzhou/QuantAgent)** — point-in-time quantitative research<br>**[Atlas](https://shengruduzhou.github.io/labs/atlas/)** — interactive spherical geometry |
 
-## Research
+## Technical stack
 
-Self-supervised representation learning for 360° imagery, spherical geometry, and transfer to semantic segmentation, depth and surface normal estimation.
+**Research** &nbsp; ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-Python, PyTorch and OpenCV for research; TypeScript, React and FastAPI for software engineering.
+**Engineering** &nbsp; ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+## GitHub metrics
+
+<!-- METRICS:START -->
+<p align="center">
+  <a href="https://metrics.lecoq.io/shengruduzhou?template=classic&amp;base=header%2Cactivity%2Ccommunity%2Crepositories&amp;isocalendar=1&amp;isocalendar.duration=half-year&amp;languages=1&amp;languages.limit=6&amp;config.timezone=Asia%2FTokyo">
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="GitHub contribution activity" />
+  </a>
+</p>
+
+[Open live Metrics dashboard](https://metrics.lecoq.io/shengruduzhou?template=classic&base=header%2Cactivity%2Ccommunity%2Crepositories&isocalendar=1&isocalendar.duration=half-year&languages=1&languages.limit=6&config.timezone=Asia%2FTokyo) · [Metrics workflow](./.github/workflows/metrics.yml)
+<!-- METRICS:END -->
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=shengruduzhou&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;column=5&amp;row=1&amp;margin-w=8">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=shengruduzhou&amp;theme=flat&amp;no-frame=true&amp;no-bg=true&amp;column=5&amp;row=1&amp;margin-w=8">
+    <img src="https://github-profile-trophy.vercel.app/?username=shengruduzhou&amp;theme=flat&amp;no-frame=true&amp;no-bg=true&amp;column=5&amp;row=1&amp;margin-w=8" width="760" alt="GitHub profile trophies" />
+  </picture>
+</p>
 
 <details>
-<summary>Development activity</summary>
+<summary>Development activity · WakaTime & contribution animation</summary>
 
-<br>
+<br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake.svg">
-  <img src="./assets/contribution-snake.svg" width="100%" alt="GitHub contribution calendar animation">
+  <img src="./assets/contribution-snake.svg" width="100%" alt="GitHub contribution animation" />
 </picture>
-
-[3D contribution calendar](./profile-3d-contrib/profile-night-rainbow.svg)
 
 <!--START_SECTION:waka-->
 
@@ -55,3 +80,4 @@ TeX        2 mins          ░░░░░░░░░░░░░░░░░�
 
 </details>
 
+<sub>Powered by [Metrics](https://github.com/lowlighter/metrics), [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg), [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy), and [Shields.io](https://shields.io/).</sub>
