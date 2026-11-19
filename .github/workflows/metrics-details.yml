@@ -22,10 +22,15 @@ jobs:
     permissions:
       contents: read
     timeout-minutes: 30
+    env:
+      HAS_WAKA: ${{ secrets.WAKATIME_API_KEY != '' }}
+      HAS_STOCK: ${{ secrets.STOCK_TOKEN != '' }}
+      ANILIST_USER: ${{ vars.ANILIST_USER }}
+      STOCK_SYMBOL: ${{ vars.STOCK_SYMBOL }}
     strategy:
       fail-fast: false
       matrix:
-        module: [calendar, languages, trophy-dark, trophy-light]
+        module: [calendar, languages, trophy-dark, trophy-light, wakatime, screenshot, anilist, stock]
     steps:
       - name: Render full-year isometric calendar
         if: matrix.module == 'calendar'
@@ -58,13 +63,11 @@ jobs:
           commits_authoring: .user.login, shengruduzhou, 渡, Shan Hefu, 167118127+shengruduzhou@users.noreply.github.com
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_sections: most-used, recently-used
+          # v3.34 recent analyzer fails on missing commit records; retain patch-based history.
+          plugin_languages_sections: most-used
           plugin_languages_details: lines, percentage
           plugin_languages_categories: programming
-          plugin_languages_recent_categories: programming
           plugin_languages_limit: 8
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 300
           plugin_languages_skipped: shengruduzhou/shengruduzhou
           plugin_languages_analysis_timeout: 12
           plugin_languages_analysis_timeout_repositories: 3
@@ -81,7 +84,82 @@ jobs:
           output_path: ${{ runner.temp }}/${{ matrix.module }}.svg
           theme: ${{ matrix.module == 'trophy-dark' && 'tokyonight' || 'flat' }}
 
+      - name: Render WakaTime dashboard
+        if: matrix.module == 'wakatime' && env.HAS_WAKA == 'true'
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_sections: time, languages, languages-graphs, editors, editors-graphs, os
+          plugin_wakatime_days: 7
+          plugin_wakatime_limit: 6
+          plugin_wakatime_repositories_visibility: public
+          config_timezone: Asia/Tokyo
+          config_animations: no
+          plugins_errors_fatal: yes
+          output_action: none
+          filename: wakatime.svg
+
+      - name: Capture personal website hero
+        if: matrix.module == 'screenshot'
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: NOT_NEEDED
+          base: ""
+          config_display: large
+          plugin_screenshot: yes
+          plugin_screenshot_title: Personal website
+          plugin_screenshot_url: https://shengruduzhou.github.io/
+          plugin_screenshot_selector: "#hero-header"
+          plugin_screenshot_viewport: '{"width": 1280, "height": 800}'
+          plugin_screenshot_wait: 1500
+          plugin_screenshot_mode: image
+          config_timezone: Asia/Tokyo
+          config_animations: no
+          plugins_errors_fatal: yes
+          output_action: none
+          filename: screenshot.svg
+
+      - name: Render AniList media activity
+        if: matrix.module == 'anilist' && env.ANILIST_USER != ''
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_user: ${{ vars.ANILIST_USER }}
+          plugin_anilist_medias: anime, manga
+          plugin_anilist_sections: favorites, watching, reading
+          plugin_anilist_limit: 2
+          plugin_anilist_shuffle: no
+          config_timezone: Asia/Tokyo
+          config_animations: no
+          plugins_errors_fatal: yes
+          output_action: none
+          filename: anilist.svg
+
+      - name: Render public stock watch chart
+        if: matrix.module == 'stock' && env.HAS_STOCK == 'true' && env.STOCK_SYMBOL != ''
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: NOT_NEEDED
+          base: ""
+          config_display: large
+          plugin_stock: yes
+          plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
+          plugin_stock_symbol: ${{ vars.STOCK_SYMBOL }}
+          plugin_stock_duration: 3mo
+          plugin_stock_interval: 1d
+          config_timezone: Asia/Tokyo
+          config_animations: no
+          plugins_errors_fatal: yes
+          output_action: none
+          filename: stock.svg
+
       - name: Collect module
+        id: collect
         env:
           MODULE: ${{ matrix.module }}
         run: |
@@ -91,10 +169,21 @@ jobs:
             calendar) cp /metrics_renders/isocalendar.svg "$RUNNER_TEMP/profile-module/isocalendar.svg" ;;
             languages) cp /metrics_renders/languages.svg "$RUNNER_TEMP/profile-module/languages.svg" ;;
             trophy-dark|trophy-light) cp "$RUNNER_TEMP/$MODULE.svg" "$RUNNER_TEMP/profile-module/$MODULE.svg" ;;
+            wakatime|screenshot|anilist|stock)
+              if [ -s "/metrics_renders/$MODULE.svg" ]; then
+                cp "/metrics_renders/$MODULE.svg" "$RUNNER_TEMP/profile-module/$MODULE.svg"
+              else
+                echo "::notice::$MODULE has no render; optional credentials or configuration may be missing."
+                echo "available=false" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+              ;;
             *) exit 1 ;;
           esac
+          echo 'available=true' >> "$GITHUB_OUTPUT"
 
       - name: Upload module
+        if: steps.collect.outputs.available == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: profile-detail-${{ matrix.module }}
