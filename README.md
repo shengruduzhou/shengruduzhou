@@ -36,7 +36,17 @@ I study visual representation learning for panoramic images, with an emphasis on
 ## GitHub metrics
 
 <!-- METRICS:DETAILS:START -->
-<!-- Extended metrics are inserted only after successful local rendering. -->
+### Isometric Calendar
+
+<img src="./assets/metrics/isocalendar.svg" width="100%" alt="Full-year isometric GitHub contribution calendar" />
+
+### GitHub Profile Trophies
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics/trophy-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/metrics/trophy-light.svg">
+  <img src="./assets/metrics/trophy-light.svg" width="100%" alt="GitHub profile trophies generated locally" />
+</picture>
 <!-- METRICS:DETAILS:END -->
 
 <details open>
