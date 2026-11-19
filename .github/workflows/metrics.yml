@@ -37,7 +37,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: shengruduzhou
           template: classic
-          base: header, activity, community, repositories
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Tokyo
           config_display: columns
           config_animations: no
@@ -63,7 +63,7 @@ jobs:
           token: ${{ github.token }}
           user: shengruduzhou
           template: classic
-          base: header, activity, community, repositories
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Tokyo
           config_display: columns
           config_animations: no
@@ -86,8 +86,11 @@ jobs:
           candidate="$RUNNER_TEMP/github-metrics.svg"
           if [ -s /metrics_renders/github-metrics.svg ]; then
             cp /metrics_renders/github-metrics.svg "$candidate"
-          elif ! curl --fail --silent --show-error --location --max-time 60 "$PUBLIC_METRICS_URL" -o "$candidate"; then
-            rm -f "$candidate"
+          fi
+          if [ ! -s "$candidate" ]; then
+            if ! curl --fail --silent --show-error --location --max-time 60 "$PUBLIC_METRICS_URL" -o "$candidate"; then
+              rm -f "$candidate"
+            fi
           fi
           if [ -s "$candidate" ]; then
             echo "available=true" >> "$GITHUB_OUTPUT"
