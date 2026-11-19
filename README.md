@@ -1,34 +1,56 @@
 # Shan Hefu
 
-**Computer vision · Machine learning · Software engineering**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/spectral/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/spectral/hero-light.svg">
+  <img src="./assets/spectral/hero-light.svg" width="100%" alt="Learning on the sphere. An orthographic view of spherical sampling with a highlighted angular region.">
+</picture>
 
-I'm a master's student in Computer Science at Sophia University, Tokyo. My research focuses on visual representation learning for panoramic images.
+I'm a master's student in Computer Science at Sophia University, Tokyo. I study self-supervised representation learning for panoramic images and build software for research.
 
 [Website](https://shengruduzhou.github.io/) · [CV (EN)](https://shengruduzhou.github.io/assets/CV.pdf) · [CV (中文)](https://shengruduzhou.github.io/assets/CV_CN.pdf) · [Portfolio](https://shanhefu-portfolio.vercel.app/) · [LinkedIn](https://linkedin.com/in/hefu-shan-054b24361/) · [Email](mailto:shanhefu@gmail.com)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sphere-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sphere-light.svg">
-  <img src="./assets/sphere-light.svg" width="100%" alt="A spherical viewing field and its equirectangular grid, with the same angular patch marked in both representations.">
-</picture>
-
 ## Research
 
-I'm interested in how to learn visual features from 360° images without annotations, how spherical geometry changes the learning problem, and how those representations transfer to dense visual prediction.
+Most vision models learn from flat, perspective images. I study what changes when the camera sees the entire sphere: how to encode geometry, learn from unlabelled panoramas, and transfer the resulting representations to segmentation, depth and surface normal estimation.
 
-Outside research, I build software for reading papers and testing quantitative investment strategies.
+`360° Vision` · `Self-supervised learning` · `Dense prediction`
 
-## Selected projects
+## Selected work
 
-**[FormulaForge](https://github.com/shengruduzhou/FormulaForge)** — An academic formula-analysis workspace. Explore equations from LaTeX or paper screenshots using a local parser and optional multimodal LLM analysis.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/shengruduzhou/FormulaForge">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/spectral/formula-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/spectral/formula-light.svg">
+  <img src="./assets/spectral/formula-light.svg" width="100%" alt="FormulaForge: illustrative decomposition of an equation into derivative terms.">
+</picture>
+</a>
+<h3><a href="https://github.com/shengruduzhou/FormulaForge">FormulaForge</a></h3>
+A workspace for understanding equations in research papers, with a local parser, screenshot input and optional multimodal model analysis.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/shengruduzhou/QuantAgent">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/spectral/quant-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/spectral/quant-light.svg">
+  <img src="./assets/spectral/quant-light.svg" width="100%" alt="QuantAgent: schematic rolling training and out-of-sample test windows; not performance data.">
+</picture>
+</a>
+<h3><a href="https://github.com/shengruduzhou/QuantAgent">QuantAgent</a></h3>
+Point-in-time research for Chinese equities, with rolling out-of-sample evaluation, transaction costs and portfolio constraints. Live trading is disabled by default.
+</td>
+</tr>
+</table>
 
-**[QuantAgent](https://github.com/shengruduzhou/QuantAgent)** — A point-in-time research system for Chinese equities, with out-of-sample evaluation, transaction-cost modelling and auditable portfolio constraints. Live trading is disabled by default.
-
-**[Notes & Projects](https://shengruduzhou.github.io/)** — My personal site for technical writing, research notes and project documentation. [Source](https://github.com/shengruduzhou/shengruduzhou.github.io).
+**[Notes & Projects](https://shengruduzhou.github.io/)** — Technical writing, research notes and project documentation. [Site source](https://github.com/shengruduzhou/shengruduzhou.github.io).
 
 ## Tools
 
-Python, PyTorch and OpenCV for vision research; TypeScript, React and FastAPI for application development.
+**Research** — Python, PyTorch, OpenCV  
+**Software** — TypeScript, React, FastAPI
 
 <details>
 <summary>Development activity</summary>
