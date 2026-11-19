@@ -1,0 +1,131 @@
+name: Profile detail metrics
+
+on:
+  schedule:
+    - cron: '45 18 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/metrics-details.yml'
+      - 'scripts/publish-metrics-details.py'
+
+permissions: {}
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        module: [calendar, languages, trophy-dark, trophy-light]
+    steps:
+      - name: Render full-year isometric calendar
+        if: matrix.module == 'calendar'
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ github.token }}
+          user: shengruduzhou
+          template: classic
+          base: metadata
+          config_timezone: Asia/Tokyo
+          config_display: large
+          config_animations: no
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugins_errors_fatal: yes
+          output_action: none
+          filename: isocalendar.svg
+
+      - name: Render in-depth languages
+        if: matrix.module == 'languages'
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ github.token }}
+          user: shengruduzhou
+          template: classic
+          base: metadata
+          config_timezone: Asia/Tokyo
+          config_display: columns
+          config_animations: no
+          commits_authoring: .user.login, shengruduzhou, 渡, Shan Hefu, 167118127+shengruduzhou@users.noreply.github.com
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: lines, percentage
+          plugin_languages_categories: programming
+          plugin_languages_recent_categories: programming
+          plugin_languages_limit: 8
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
+          plugin_languages_skipped: shengruduzhou/shengruduzhou
+          plugin_languages_analysis_timeout: 12
+          plugin_languages_analysis_timeout_repositories: 3
+          plugins_errors_fatal: yes
+          output_action: none
+          filename: languages.svg
+
+      - name: Generate official trophy locally
+        if: startsWith(matrix.module, 'trophy-')
+        uses: ryo-ma/github-profile-trophy@43736b50a82fca73c8df1c81abb40aa03519975c
+        with:
+          username: shengruduzhou
+          token: ${{ github.token }}
+          output_path: ${{ runner.temp }}/${{ matrix.module }}.svg
+          theme: ${{ matrix.module == 'trophy-dark' && 'tokyonight' || 'flat' }}
+
+      - name: Collect module
+        env:
+          MODULE: ${{ matrix.module }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/profile-module"
+          case "$MODULE" in
+            calendar) cp /metrics_renders/isocalendar.svg "$RUNNER_TEMP/profile-module/isocalendar.svg" ;;
+            languages) cp /metrics_renders/languages.svg "$RUNNER_TEMP/profile-module/languages.svg" ;;
+            trophy-dark|trophy-light) cp "$RUNNER_TEMP/$MODULE.svg" "$RUNNER_TEMP/profile-module/$MODULE.svg" ;;
+            *) exit 1 ;;
+          esac
+
+      - name: Upload module
+        uses: actions/upload-artifact@v4
+        with:
+          name: profile-detail-${{ matrix.module }}
+          path: ${{ runner.temp }}/profile-module/*.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: render
+    if: always() && !cancelled()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: profile-detail-*
+          path: ${{ runner.temp }}/profile-details
+          merge-multiple: true
+      - name: Validate and publish successful modules
+        run: |
+          set -euo pipefail
+          git pull --ff-only origin main
+          python scripts/publish-metrics-details.py "$RUNNER_TEMP/profile-details"
+          git add README.md assets/metrics
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: publish profile detail metrics"
+          git push origin HEAD:main
