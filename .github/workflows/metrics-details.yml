@@ -27,8 +27,8 @@ jobs:
       HAS_STOCK: ${{ secrets.STOCK_TOKEN != '' }}
       HAS_MUSIC: ${{ secrets.SPOTIFY_TOKENS != '' }}
       HAS_STEAM: ${{ secrets.STEAM_TOKEN != '' }}
-      STEAM_USER: ${{ vars.STEAM_USER }}
-      ANILIST_USER: ${{ vars.ANILIST_USER }}
+      STEAM_USER: ${{ vars.STEAM_USER || '76561198117806798' }}
+      ANILIST_USER: ${{ vars.ANILIST_USER || 'dddduddd' }}
       STOCK_SYMBOL: ${{ vars.STOCK_SYMBOL }}
     strategy:
       fail-fast: false
@@ -120,7 +120,7 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_anilist: yes
-          plugin_anilist_user: ${{ vars.ANILIST_USER }}
+          plugin_anilist_user: ${{ env.ANILIST_USER }}
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: favorites, watching, reading
           plugin_anilist_limit: 2
@@ -154,7 +154,7 @@ jobs:
 
       - name: Explain missing steam configuration
         if: matrix.module == 'steam' && (env.HAS_STEAM != 'true' || env.STEAM_USER == '')
-        run: echo "::notice::Set STEAM_TOKEN in Actions secrets and STEAM_USER (SteamID64) in Actions variables."
+        run: echo "::notice::Set STEAM_TOKEN in repository Actions secrets. SteamID64 has a configured default."
 
       - name: Render Steam gaming activity
         if: matrix.module == 'steam' && env.HAS_STEAM == 'true' && env.STEAM_USER != ''
@@ -164,7 +164,7 @@ jobs:
           base: ""
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam_user: ${{ vars.STEAM_USER }}
+          plugin_steam_user: ${{ env.STEAM_USER }}
           plugin_steam_sections: player, most-played, recently-played
           plugin_steam_games_limit: 3
           plugin_steam_recent_games_limit: 3
