@@ -40,6 +40,10 @@ I study visual representation learning for panoramic images, with an emphasis on
 
 <img src="./assets/metrics/isocalendar.svg" width="100%" alt="Full-year isometric GitHub contribution calendar" />
 
+### Starred Topics
+
+<img src="./assets/metrics/topics.svg" width="100%" alt="Starred GitHub topics" />
+
 ### GitHub Profile Trophies
 
 <picture>
