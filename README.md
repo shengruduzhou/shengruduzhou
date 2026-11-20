@@ -44,6 +44,12 @@ I study visual representation learning for panoramic images, with an emphasis on
 
 <img src="./assets/metrics/topics.svg" width="100%" alt="Starred GitHub topics" />
 
+### WakaTime
+
+<img src="./assets/metrics/wakatime.svg" width="100%" alt="WakaTime coding activity over the last seven days" />
+
+<sub>Last 7 days · Languages, editors and operating systems · No project names displayed.</sub>
+
 ### GitHub Profile Trophies
 
 <picture>
