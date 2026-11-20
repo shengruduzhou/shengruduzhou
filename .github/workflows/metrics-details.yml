@@ -23,7 +23,7 @@ jobs:
       contents: read
     timeout-minutes: 30
     env:
-      HAS_WAKA: ${{ secrets.WAKATIME_API_KEY != '' }}
+      HAS_WAKA: ${{ secrets.WAKATIME_OAUTH_TOKEN != '' }}
       HAS_STOCK: ${{ secrets.STOCK_TOKEN != '' }}
       HAS_MUSIC: ${{ secrets.SPOTIFY_TOKENS != '' }}
       HAS_STEAM: ${{ secrets.STEAM_TOKEN != '' }}
@@ -87,6 +87,10 @@ jobs:
           output_path: ${{ runner.temp }}/${{ matrix.module }}.svg
           theme: ${{ matrix.module == 'trophy-dark' && 'tokyonight' || 'flat' }}
 
+      - name: Explain missing WakaTime OAuth token
+        if: matrix.module == 'wakatime' && env.HAS_WAKA != 'true'
+        run: echo "::notice::WakaTime requires a personal OAuth token. Add WAKATIME_OAUTH_TOKEN from https://wakatime.com/oauth to repository Actions secrets."
+
       - name: Render WakaTime dashboard
         if: matrix.module == 'wakatime' && env.HAS_WAKA == 'true'
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
@@ -94,7 +98,7 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_token: ${{ secrets.WAKATIME_OAUTH_TOKEN }}
           plugin_wakatime_sections: time, languages, languages-graphs, editors, editors-graphs, os
           plugin_wakatime_days: 7
           plugin_wakatime_limit: 6
