@@ -33,7 +33,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        module: [calendar, languages, trophy-dark, trophy-light, topics, wakatime, anilist, music, steam, stock]
+        module: [calendar, languages, trophy-dark, trophy-light, wakatime, anilist, music, steam, stock]
     steps:
       - name: Render full-year isometric calendar
         if: matrix.module == 'calendar'
@@ -109,22 +109,9 @@ jobs:
           output_action: none
           filename: wakatime.svg
 
-      - name: Render starred GitHub topics
-        if: matrix.module == 'topics'
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
-        with:
-          token: NOT_NEEDED
-          user: shengruduzhou
-          base: ""
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_sort: stars
-          plugin_topics_limit: 12
-          config_timezone: Asia/Tokyo
-          config_animations: no
-          plugins_errors_fatal: yes
-          output_action: none
-          filename: topics.svg
+      - name: Explain missing anilist configuration
+        if: matrix.module == 'anilist' && env.ANILIST_USER == ''
+        run: echo "::notice::Set ANILIST_USER to your public AniList username in repository Actions variables."
 
       - name: Render AniList media activity
         if: matrix.module == 'anilist' && env.ANILIST_USER != ''
@@ -144,6 +131,10 @@ jobs:
           output_action: none
           filename: anilist.svg
 
+      - name: Explain missing music configuration
+        if: matrix.module == 'music' && env.HAS_MUSIC != 'true'
+        run: echo "::notice::Set SPOTIFY_TOKENS in repository Actions secrets (client_id, client_secret, refresh_token)."
+
       - name: Render Spotify listening activity
         if: matrix.module == 'music' && env.HAS_MUSIC == 'true'
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
@@ -160,6 +151,10 @@ jobs:
           plugins_errors_fatal: yes
           output_action: none
           filename: music.svg
+
+      - name: Explain missing steam configuration
+        if: matrix.module == 'steam' && (env.HAS_STEAM != 'true' || env.STEAM_USER == '')
+        run: echo "::notice::Set STEAM_TOKEN in Actions secrets and STEAM_USER (SteamID64) in Actions variables."
 
       - name: Render Steam gaming activity
         if: matrix.module == 'steam' && env.HAS_STEAM == 'true' && env.STEAM_USER != ''
@@ -179,6 +174,10 @@ jobs:
           plugins_errors_fatal: yes
           output_action: none
           filename: steam.svg
+
+      - name: Explain missing stock configuration
+        if: matrix.module == 'stock' && (env.HAS_STOCK != 'true' || env.STOCK_SYMBOL == '')
+        run: echo "::notice::Set STOCK_TOKEN (RapidAPI Yahoo Finance) in Actions secrets and STOCK_SYMBOL in Actions variables."
 
       - name: Render public stock watch chart
         if: matrix.module == 'stock' && env.HAS_STOCK == 'true' && env.STOCK_SYMBOL != ''
@@ -209,7 +208,7 @@ jobs:
             calendar) cp /metrics_renders/isocalendar.svg "$RUNNER_TEMP/profile-module/isocalendar.svg" ;;
             languages) cp /metrics_renders/languages.svg "$RUNNER_TEMP/profile-module/languages.svg" ;;
             trophy-dark|trophy-light) cp "$RUNNER_TEMP/$MODULE.svg" "$RUNNER_TEMP/profile-module/$MODULE.svg" ;;
-            topics|wakatime|anilist|music|steam|stock)
+            wakatime|anilist|music|steam|stock)
               if [ -s "/metrics_renders/$MODULE.svg" ]; then
                 cp "/metrics_renders/$MODULE.svg" "$RUNNER_TEMP/profile-module/$MODULE.svg"
               else
