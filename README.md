@@ -79,6 +79,10 @@ I study visual representation learning for panoramic images, with an emphasis on
 <img src="./assets/metrics/wakatime.svg" width="100%" alt="WakaTime coding activity over the last seven days" />
 
 <sub>Last 7 days · Languages, editors and operating systems · No project names displayed.</sub>
+
+### AniList
+
+<img src="./assets/metrics/anilist.svg" width="100%" alt="AniList anime and manga favorites and current activity" />
 <!-- METRICS:ACTIVITY:END -->
 
 </details>
