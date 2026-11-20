@@ -25,12 +25,15 @@ jobs:
     env:
       HAS_WAKA: ${{ secrets.WAKATIME_API_KEY != '' }}
       HAS_STOCK: ${{ secrets.STOCK_TOKEN != '' }}
+      HAS_MUSIC: ${{ secrets.SPOTIFY_TOKENS != '' }}
+      HAS_STEAM: ${{ secrets.STEAM_TOKEN != '' }}
+      STEAM_USER: ${{ vars.STEAM_USER }}
       ANILIST_USER: ${{ vars.ANILIST_USER }}
       STOCK_SYMBOL: ${{ vars.STOCK_SYMBOL }}
     strategy:
       fail-fast: false
       matrix:
-        module: [calendar, languages, trophy-dark, trophy-light, wakatime, screenshot, anilist, stock]
+        module: [calendar, languages, trophy-dark, trophy-light, topics, wakatime, anilist, music, steam, stock]
     steps:
       - name: Render full-year isometric calendar
         if: matrix.module == 'calendar'
@@ -102,25 +105,22 @@ jobs:
           output_action: none
           filename: wakatime.svg
 
-      - name: Capture personal website hero
-        if: matrix.module == 'screenshot'
+      - name: Render starred GitHub topics
+        if: matrix.module == 'topics'
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: NOT_NEEDED
+          user: shengruduzhou
           base: ""
-          config_display: large
-          plugin_screenshot: yes
-          plugin_screenshot_title: Personal website
-          plugin_screenshot_url: https://shengruduzhou.github.io/
-          plugin_screenshot_selector: "#hero-header"
-          plugin_screenshot_viewport: '{"width": 1280, "height": 800}'
-          plugin_screenshot_wait: 1500
-          plugin_screenshot_mode: image
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars
+          plugin_topics_limit: 12
           config_timezone: Asia/Tokyo
           config_animations: no
           plugins_errors_fatal: yes
           output_action: none
-          filename: screenshot.svg
+          filename: topics.svg
 
       - name: Render AniList media activity
         if: matrix.module == 'anilist' && env.ANILIST_USER != ''
@@ -139,6 +139,42 @@ jobs:
           plugins_errors_fatal: yes
           output_action: none
           filename: anilist.svg
+
+      - name: Render Spotify listening activity
+        if: matrix.module == 'music' && env.HAS_MUSIC == 'true'
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_mode: recent
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
+          plugin_music_limit: 4
+          config_timezone: Asia/Tokyo
+          config_animations: no
+          plugins_errors_fatal: yes
+          output_action: none
+          filename: music.svg
+
+      - name: Render Steam gaming activity
+        if: matrix.module == 'steam' && env.HAS_STEAM == 'true' && env.STEAM_USER != ''
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: NOT_NEEDED
+          base: ""
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: ${{ vars.STEAM_USER }}
+          plugin_steam_sections: player, most-played, recently-played
+          plugin_steam_games_limit: 3
+          plugin_steam_recent_games_limit: 3
+          plugin_steam_achievements_limit: 2
+          config_timezone: Asia/Tokyo
+          config_animations: no
+          plugins_errors_fatal: yes
+          output_action: none
+          filename: steam.svg
 
       - name: Render public stock watch chart
         if: matrix.module == 'stock' && env.HAS_STOCK == 'true' && env.STOCK_SYMBOL != ''
@@ -169,7 +205,7 @@ jobs:
             calendar) cp /metrics_renders/isocalendar.svg "$RUNNER_TEMP/profile-module/isocalendar.svg" ;;
             languages) cp /metrics_renders/languages.svg "$RUNNER_TEMP/profile-module/languages.svg" ;;
             trophy-dark|trophy-light) cp "$RUNNER_TEMP/$MODULE.svg" "$RUNNER_TEMP/profile-module/$MODULE.svg" ;;
-            wakatime|screenshot|anilist|stock)
+            topics|wakatime|anilist|music|steam|stock)
               if [ -s "/metrics_renders/$MODULE.svg" ]; then
                 cp "/metrics_renders/$MODULE.svg" "$RUNNER_TEMP/profile-module/$MODULE.svg"
               else

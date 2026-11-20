@@ -9,7 +9,7 @@ END = "<!-- METRICS:DETAILS:END -->"
 DEST = Path("assets/metrics")
 README = Path("README.md")
 FILES = ("isocalendar.svg", "languages.svg", "trophy-dark.svg", "trophy-light.svg",
-         "wakatime.svg", "screenshot.svg", "anilist.svg", "stock.svg")
+         "topics.svg", "wakatime.svg", "anilist.svg", "music.svg", "steam.svg", "stock.svg")
 
 def tag(element):
     return element.tag.rsplit("}", 1)[-1]
@@ -47,12 +47,9 @@ def validate(name, data):
     elif name == "wakatime.svg":
         if not any(h.startswith("wakatime") for h in headings) or "language activity" not in headings:
             raise ValueError("WakaTime sections missing")
-    elif name == "screenshot.svg":
-        if "personal website" not in headings or not any(
-            tag(el) == "img" and el.get("src", "").startswith("data:image/")
-            for el in root.iter()
-        ):
-            raise ValueError("website screenshot missing")
+    elif name in {"topics.svg", "music.svg", "steam.svg"}:
+        if not headings or not any(tag(el) in {"img", "svg", "path"} for el in root.iter() if el is not root):
+            raise ValueError("plugin content missing")
     elif name == "anilist.svg":
         if "anilist" not in headings or "favorites genres:" not in body:
             raise ValueError("AniList profile data missing")
@@ -98,12 +95,16 @@ def main():
         parts.append('### Isometric Calendar\n\n<img src="./assets/metrics/isocalendar.svg" width="100%" alt="Full-year isometric GitHub contribution calendar" />')
     if exists("languages.svg"):
         parts.append('### Language Analytics\n\n<img src="./assets/metrics/languages.svg" width="100%" alt="In-depth language analysis: authored code changes" />\n\n<sub>Public repositories · Programming languages · Git commit patch analysis · Analyzed commit history (time-limited)</sub>')
+    if exists("topics.svg"):
+        parts.append('### Starred Topics\n\n<img src="./assets/metrics/topics.svg" width="100%" alt="Starred GitHub topics" />')
     if exists("wakatime.svg"):
         parts.append('### WakaTime\n\n<img src="./assets/metrics/wakatime.svg" width="100%" alt="WakaTime coding activity over the last seven days" />\n\n<sub>Last 7 days · Languages, editors and operating systems · No project names displayed.</sub>')
-    if exists("screenshot.svg"):
-        parts.append('### Personal Website\n\n<a href="https://shengruduzhou.github.io/"><img src="./assets/metrics/screenshot.svg" width="100%" alt="Screenshot of the personal website; open the website" /></a>')
     if exists("anilist.svg"):
         parts.append('### AniList\n\n<img src="./assets/metrics/anilist.svg" width="100%" alt="AniList anime and manga favorites and current activity" />')
+    if exists("music.svg"):
+        parts.append('### Music\n\n<img src="./assets/metrics/music.svg" width="100%" alt="Recently played music on Spotify" />')
+    if exists("steam.svg"):
+        parts.append('### Steam\n\n<img src="./assets/metrics/steam.svg" width="100%" alt="Steam profile and gaming activity" />')
     if exists("stock.svg"):
         parts.append('### Market Watch\n\n<img src="./assets/metrics/stock.svg" width="100%" alt="Public stock price chart" />\n\n<sub>Market watch · 3 months · Daily observations · Not portfolio holdings or returns.</sub>')
     dark, light = exists("trophy-dark.svg"), exists("trophy-light.svg")

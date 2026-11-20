@@ -40,10 +40,6 @@ I study visual representation learning for panoramic images, with an emphasis on
 
 <img src="./assets/metrics/isocalendar.svg" width="100%" alt="Full-year isometric GitHub contribution calendar" />
 
-### Personal Website
-
-<a href="https://shengruduzhou.github.io/"><img src="./assets/metrics/screenshot.svg" width="100%" alt="Screenshot of the personal website; open the website" /></a>
-
 ### GitHub Profile Trophies
 
 <picture>
@@ -67,7 +63,7 @@ I study visual representation learning for panoramic images, with an emphasis on
 </details>
 
 <details>
-<summary>Development activity · WakaTime & contribution animation</summary>
+<summary>Development activity · Contribution animation</summary>
 
 <br />
 
@@ -76,20 +72,6 @@ I study visual representation learning for panoramic images, with an emphasis on
   <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake.svg">
   <img src="./assets/contribution-snake.svg" width="100%" alt="GitHub contribution animation" />
 </picture>
-
-<!--START_SECTION:waka-->
-
-```txt
-Total Time: 87 hrs 12 mins
-
-Text       47 hrs 21 mins  ███████████▓░░░░░░░░░░░░░   46.21 %
-Markdown   39 hrs 41 mins  █████████▓░░░░░░░░░░░░░░░   38.73 %
-Other      15 hrs 16 mins  ███▓░░░░░░░░░░░░░░░░░░░░░   14.91 %
-JSON       7 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
-TeX        2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 %
-```
-
-<!--END_SECTION:waka-->
 
 </details>
 
