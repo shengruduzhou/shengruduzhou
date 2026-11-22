@@ -25,7 +25,7 @@ I study visual representation learning for panoramic images, with an emphasis on
 
 | Research | Selected software |
 | :--- | :--- |
-| Panoramic computer vision<br>Self-supervised representation learning<br>Dense visual prediction | **[FormulaForge](https://github.com/shengruduzhou/FormulaForge)** — mathematical analysis for research papers<br>**[QuantAgent](https://github.com/shengruduzhou/QuantAgent)** — point-in-time quantitative research<br>**[Atlas](https://shengruduzhou.github.io/labs/atlas/)** — interactive spherical geometry |
+| Panoramic computer vision<br>Self-supervised representation learning<br>Dense visual prediction | **[FormulaForge](https://github.com/shengruduzhou/FormulaForge)** — mathematical analysis for research papers<br>**[QuantAgent](https://github.com/shengruduzhou/QuantAgent)** — point-in-time quantitative research<br>**[Atlas](https://shengruduzhou.github.io/labs/atlas/index.html)** — interactive spherical geometry |
 
 ## Technical stack
 
